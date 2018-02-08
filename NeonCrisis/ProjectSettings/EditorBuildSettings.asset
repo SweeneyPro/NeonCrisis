@@ -4,4 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/PROTOTYPE/PR_Start_Scene.unity
+    guid: a6f8f640487779e4b831f56e74494fd9
+  - enabled: 1
+    path: Assets/Scenes/Team Scenes/Jo.unity
+    guid: 8b54a63fcc6f51145b1829eb7aef6350
+  - enabled: 1
+    path: Assets/PROTOTYPE/PR_Highscore.unity
+    guid: deec39289c8b54d45b717c8d69fdf95c

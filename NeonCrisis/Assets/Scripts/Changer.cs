@@ -41,7 +41,7 @@ public class Changer : MonoBehaviour {
             }
             while(vec != seven_vectors[rand_index])
             {
-                print(vec + " " + seven_vectors[rand_index]);
+                
                 vec.x = Mathf.MoveTowards(vec.x, seven_vectors[rand_index].x, speed * Time.deltaTime);
                 vec.y = Mathf.MoveTowards(vec.y, seven_vectors[rand_index].y, speed * Time.deltaTime);
                 vec.z = Mathf.MoveTowards(vec.z, seven_vectors[rand_index].z, speed * Time.deltaTime);

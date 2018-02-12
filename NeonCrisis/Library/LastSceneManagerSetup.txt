@@ -1,0 +1,8 @@
+sceneSetups:
+<<<<<<< HEAD
+- path: Assets/Scenes/Team Scenes/Vinny.unity
+=======
+- path: Assets/Scenes/Team Scenes/Jamie/Jamie.unity
+>>>>>>> 1b6fe2bf1653cece1c48dfdcc1a687794d456ce6
+  isLoaded: 1
+  isActive: 1

@@ -35,10 +35,10 @@ public class Changer : MonoBehaviour {
         vec.w = 0;
         while(true)
         {
-            while (rand_index == last_index)
+            /*while (rand_index == last_index)
             {
                 rand_index = Random.Range(0, seven_vectors.Length);
-            }
+            }*/
             while(vec != seven_vectors[rand_index])
             {
                 
@@ -47,6 +47,11 @@ public class Changer : MonoBehaviour {
                 vec.z = Mathf.MoveTowards(vec.z, seven_vectors[rand_index].z, speed * Time.deltaTime);
                 sprite_rend_mat.SetVector("_MKGlowTexColor", vec);
                 yield return new WaitForEndOfFrame();
+            }
+            rand_index++;
+            if(rand_index > 3)
+            {
+                rand_index = 0;
             }
             last_index = rand_index;
         }

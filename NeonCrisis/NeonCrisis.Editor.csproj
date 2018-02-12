@@ -55,6 +55,7 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
+<<<<<<< HEAD
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>Library\UnityAssemblies\UnityEditor.Advertisements.dll</HintPath>
     </Reference>
@@ -106,6 +107,8 @@
     <Reference Include="UnityEditor.VR">
       <HintPath>Library\UnityAssemblies\UnityEditor.VR.dll</HintPath>
     </Reference>
+=======
+>>>>>>> a076dfb6dca561e087e3add944c40061569a052e
     <Reference Include="UnityEditor.Graphs">
       <HintPath>Library\UnityAssemblies\UnityEditor.Graphs.dll</HintPath>
     </Reference>
@@ -149,7 +152,10 @@
   <ItemGroup>
     <Compile Include="Assets\_MK\MKGlowFree\Editor\MKGlowFreeEditor.cs" />
     <Compile Include="Assets\Editor\Auto_Save_On_Run.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Editor\Enemy_Prefab_Creator.cs" />
+=======
+>>>>>>> a076dfb6dca561e087e3add944c40061569a052e
     <Compile Include="Assets\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />

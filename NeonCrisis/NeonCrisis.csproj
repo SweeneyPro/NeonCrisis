@@ -55,6 +55,7 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
+<<<<<<< HEAD
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -76,6 +77,8 @@
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
     </Reference>
+=======
+>>>>>>> a076dfb6dca561e087e3add944c40061569a052e
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
@@ -88,6 +91,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\_MK\MKGlowFree\MKGlowFree.cs" />
+<<<<<<< HEAD
+=======
+    <Compile Include="Assets\Changer.cs" />
+>>>>>>> a076dfb6dca561e087e3add944c40061569a052e
     <Compile Include="Assets\Play_pew.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
@@ -134,8 +141,13 @@
     <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\Changer.cs" />
     <Compile Include="Assets\Scripts\Enemy_Animation_Follow.cs" />
+=======
+    <Compile Include="Assets\Scripts\Enemy_Animation_Follow.cs" />
+    <Compile Include="Assets\Scripts\RotationFixer.cs" />
+>>>>>>> a076dfb6dca561e087e3add944c40061569a052e
     <Compile Include="Assets\UETools\Magic_Particle_Effects\Scripts\CameraMovement.cs" />
   </ItemGroup>
   <ItemGroup>
